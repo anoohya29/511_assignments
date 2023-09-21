@@ -1,3 +1,9 @@
+import Mathlib.Data.Real.Basic
+import Library.Tactic.Extra
+import Library.Tactic.Numbers
+import Library.Tactic.Addarith
+import Library.Tactic.Cancel
+
 --(a)
 lemma de_morgan_2 {p q : Prop} : (¬p ∧ ¬q) → ¬(p ∨ q) := by
 -- by closing box [1-11]
